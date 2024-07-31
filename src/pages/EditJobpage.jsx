@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import { Link, useLoaderData, useNavigate, useParams } from "react-router-dom";
 import { toast } from "react-toastify";
 
@@ -11,7 +11,9 @@ const EditJobpage = ({ updateJobSubmit }) => {
     const [description, setDescription] = useState(job.description);
     const [salary, setSalary] = useState(job.salary);
     const [companyName, setCompanyName] = useState(job.company.name);
-    const [companyDescription, setCompanyDescription] = useState(job.company.description);
+    const [companyDescription, setCompanyDescription] = useState(
+        job.company.description
+    );
     const [contactEmail, setContactEmail] = useState(job.company.contactEmail);
     const [contactPhone, setContactPhone] = useState(job.company.contactPhone);
 
@@ -44,12 +46,12 @@ const EditJobpage = ({ updateJobSubmit }) => {
     };
 
     return (
-        <section className="bg-indigo-50">
+        <section className="bg-indigo-50 mt-50 pt-8">
             <div className="container m-auto max-w-2xl py-24">
                 <div className="bg-white px-6 py-8 mb-4 shadow-md rounded-md border m-4 md:m-0">
                     <form onSubmit={submitForm}>
                         <h2 className="text-3xl text-center font-semibold mb-6">
-                            Add Job
+                            Edit Job
                         </h2>
 
                         <div className="mb-4">
@@ -101,6 +103,7 @@ const EditJobpage = ({ updateJobSubmit }) => {
                                 Description
                             </label>
                             <textarea
+                                style={{ resize: "none" }}
                                 id="description"
                                 name="description"
                                 className="border rounded w-full py-2 px-3"
@@ -202,6 +205,7 @@ const EditJobpage = ({ updateJobSubmit }) => {
                                 Company Description
                             </label>
                             <textarea
+                                style={{resize: "none"}}
                                 id="company_description"
                                 name="company_description"
                                 className="border rounded w-full py-2 px-3"

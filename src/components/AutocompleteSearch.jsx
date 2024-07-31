@@ -10,7 +10,7 @@ const AutocompleteSearch = ({items, onSelect, onClear}) => {
 
     return (
         <div>
-            <div style={{ width: 400, margin: 'auto'}}>
+            <div style={{ maxWidth: 400, margin: 'auto'}}>
                 <ReactSearchAutocomplete
                     items={items}
                     autoFocus
@@ -21,7 +21,7 @@ const AutocompleteSearch = ({items, onSelect, onClear}) => {
                     fuseOptions={{ keys: ["title"] }}
                     resultStringKeyName="title"
                     styling={{
-                        zIndex: '10',
+                        zIndex: '9',
                     }}
                 />
             </div>

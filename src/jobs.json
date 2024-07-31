@@ -83,6 +83,384 @@
         "contactEmail": "contact@ipsumem.com",
         "contactPhone": "555-555-5555"
       }
+    },
+    {
+      "id": "7",
+      "title": "React Developer (Remote)",
+      "type": "Full-Time",
+      "description": "Join our remote team as a React Developer. We are looking for a skilled developer with experience in building scalable web applications. This is a remote position with flexible working hours and the opportunity to work with a diverse team.",
+      "location": "Remote",
+      "salary": "$80K - $90K",
+      "company": {
+        "name": "Global Tech Innovations",
+        "description": "Global Tech Innovations is a leading provider of remote tech solutions, offering a collaborative work environment that embraces flexibility and innovation.",
+        "contactEmail": "jobs@globaltech.com",
+        "contactPhone": "555-555-5556"
+      }
+    },
+    {
+      "id": "8",
+      "title": "Senior Front-End React Developer",
+      "type": "Full-Time",
+      "description": "Seeking a Senior Front-End React Developer to join our growing team in San Francisco, CA. Ideal candidates will have strong React experience and a passion for creating high-performance web applications.",
+      "location": "San Francisco, CA",
+      "salary": "$120K - $140K",
+      "company": {
+        "name": "TechWave Inc.",
+        "description": "TechWave Inc. is a cutting-edge tech company specializing in advanced web applications and software solutions. We offer competitive salaries and a dynamic work environment.",
+        "contactEmail": "careers@techwave.com",
+        "contactPhone": "555-555-5557"
+      }
+    },
+    {
+      "id": "9",
+      "title": "React Front-End Engineer",
+      "type": "Full-Time",
+      "description": "We are looking for a React Front-End Engineer to join our team in Denver, CO. The ideal candidate will have experience with React and a strong understanding of front-end development principles.",
+      "location": "Denver, CO",
+      "salary": "$75K - $85K",
+      "company": {
+        "name": "Innovate Labs",
+        "description": "Innovate Labs is dedicated to delivering innovative tech solutions and fostering a collaborative work environment. Join us to work on exciting projects and advance your career.",
+        "contactEmail": "hr@innovatelabs.com",
+        "contactPhone": "555-555-5558"
+      }
+    },
+    {
+      "id": "10",
+      "title": "React UI Developer",
+      "type": "Part-Time",
+      "description": "Part-Time React UI Developer needed for a project-based role in Seattle, WA. Ideal for someone with strong React skills and experience in designing user interfaces.",
+      "location": "Seattle, WA",
+      "salary": "$50K - $60K",
+      "company": {
+        "name": "DesignTech Studios",
+        "description": "DesignTech Studios focuses on creating cutting-edge UI/UX designs and offers a flexible work schedule for talented developers.",
+        "contactEmail": "contact@designtech.com",
+        "contactPhone": "555-555-5559"
+      }
+    },
+    {
+      "id": "11",
+      "title": "React Web Developer",
+      "type": "Full-Time",
+      "description": "We are hiring a React Web Developer for our office in Austin, TX. The ideal candidate will have experience with React and a strong background in building responsive web applications.",
+      "location": "Austin, TX",
+      "salary": "$85K - $95K",
+      "company": {
+        "name": "Tech Frontier",
+        "description": "Tech Frontier is a fast-growing company specializing in web development and digital solutions. We offer a collaborative work environment and opportunities for career growth.",
+        "contactEmail": "hr@techfrontier.com",
+        "contactPhone": "555-555-5560"
+      }
+    },
+    {
+      "id": "12",
+      "title": "React Software Engineer",
+      "type": "Full-Time",
+      "description": "Join our team as a React Software Engineer in Philadelphia, PA. We are looking for a talented engineer to develop high-quality software solutions and contribute to our growing projects.",
+      "location": "Philadelphia, PA",
+      "salary": "$95K - $105K",
+      "company": {
+        "name": "NextGen Solutions",
+        "description": "NextGen Solutions is dedicated to providing advanced software solutions and a supportive work environment for our engineering team.",
+        "contactEmail": "careers@nextgensolutions.com",
+        "contactPhone": "555-555-5561"
+      }
+    },
+    {
+      "id": "13",
+      "title": "React & Node.js Developer",
+      "type": "Full-Time",
+      "description": "We are seeking a React & Node.js Developer to work in Charlotte, NC. This role involves building scalable applications using React and Node.js in a collaborative environment.",
+      "location": "Charlotte, NC",
+      "salary": "$80K - $90K",
+      "company": {
+        "name": "CodeCraft Technologies",
+        "description": "CodeCraft Technologies is a leading software development company focused on creating innovative solutions and fostering a creative work culture.",
+        "contactEmail": "jobs@codecrafttech.com",
+        "contactPhone": "555-555-5562"
+      }
+    },
+    {
+      "id": "14",
+      "title": "React Developer - Start-Up",
+      "type": "Full-Time",
+      "description": "Exciting opportunity for a React Developer to join a fast-paced start-up in San Diego, CA. We are looking for a proactive individual with a strong React background and a passion for innovation.",
+      "location": "San Diego, CA",
+      "salary": "$85K - $95K",
+      "company": {
+        "name": "Innovative Start-Up",
+        "description": "Innovative Start-Up is a new player in the tech industry focused on cutting-edge solutions and rapid development. Join our team and be part of something new and exciting.",
+        "contactEmail": "careers@innovativestartup.com",
+        "contactPhone": "555-555-5563"
+      }
+    },
+    {
+      "id": "15",
+      "title": "React Front-End Specialist",
+      "type": "Full-Time",
+      "description": "We are seeking a React Front-End Specialist to work in Minneapolis, MN. The ideal candidate will have extensive experience with React and a keen eye for detail in user interface design.",
+      "location": "Minneapolis, MN",
+      "salary": "$90K - $100K",
+      "company": {
+        "name": "Tech Elite",
+        "description": "Tech Elite is a top technology firm offering a dynamic work environment and opportunities to work on high-profile projects. We value innovation and excellence in our team.",
+        "contactEmail": "jobs@techelite.com",
+        "contactPhone": "555-555-5564"
+      }
+    },
+    {
+      "id": "16",
+      "title": "React UI/UX Developer",
+      "type": "Full-Time",
+      "description": "Join our team as a React UI/UX Developer in Chicago, IL. We are looking for someone with a strong React background and expertise in UI/UX design to enhance our web applications.",
+      "location": "Chicago, IL",
+      "salary": "$100K - $110K",
+      "company": {
+        "name": "Creative Dynamics",
+        "description": "Creative Dynamics is a design-focused tech company known for its innovative approach to UI/UX and web development. We offer a collaborative work environment and opportunities for growth.",
+        "contactEmail": "hr@creativedynamics.com",
+        "contactPhone": "555-555-5565"
+      }
+    },
+    {
+      "id": "17",
+      "title": "React Development Lead",
+      "type": "Full-Time",
+      "description": "We are hiring a React Development Lead for our headquarters in Seattle, WA. The role involves leading a team of developers, designing complex web applications, and ensuring high standards of code quality.",
+      "location": "Seattle, WA",
+      "salary": "$130K - $150K",
+      "company": {
+        "name": "Elite Web Solutions",
+        "description": "Elite Web Solutions is a leading web development company known for its high-quality projects and leadership in the industry. We offer competitive salaries and a supportive work environment.",
+        "contactEmail": "leadership@elitewebsolutions.com",
+        "contactPhone": "555-555-5566"
+      }
+    },
+    {
+      "id": "18",
+      "title": "React Developer (Contract)",
+      "type": "Contract",
+      "description": "Contract position available for a React Developer in Austin, TX. We need a skilled developer to work on a project basis, with strong React skills and experience in delivering high-quality web applications.",
+      "location": "Austin, TX",
+      "salary": "$70K - $80K (Contract)",
+      "company": {
+        "name": "Freelance Pro",
+        "description": "Freelance Pro connects talented developers with exciting projects on a contract basis. We provide flexibility and opportunities to work with various clients across industries.",
+        "contactEmail": "contracts@freelancepro.com",
+        "contactPhone": "555-555-5567"
+      }
+    },
+    {
+      "id": "19",
+      "title": "Junior React Developer",
+      "type": "Full-Time",
+      "description": "Junior React Developer role available in Tampa, FL. Ideal for recent graduates or individuals with a few years of experience in React. Opportunity to grow within a supportive and innovative company.",
+      "location": "Tampa, FL",
+      "salary": "$55K - $65K",
+      "company": {
+        "name": "TechGrowth Inc.",
+        "description": "TechGrowth Inc. is dedicated to nurturing young talent and providing opportunities for career advancement. Join our team to work on exciting projects and develop your skills.",
+        "contactEmail": "jobs@techg.com",
+        "contactPhone": "555-555-5568"
+      }
+    },
+    {
+      "id": "20",
+      "title": "React Front-End Architect",
+      "type": "Full-Time",
+      "description": "React Front-End Architect position available in New York, NY. We are looking for an experienced architect to lead front-end development efforts and design scalable web solutions.",
+      "location": "New York, NY",
+      "salary": "$140K - $160K",
+      "company": {
+        "name": "Visionary Tech",
+        "description": "Visionary Tech is a forward-thinking technology firm specializing in innovative solutions and complex web applications. We offer a challenging and rewarding work environment.",
+        "contactEmail": "careers@visio.com",
+        "contactPhone": "555-555-5569"
+      }
+    },
+    {
+      "id": "21",
+      "title": "React Web Application Developer",
+      "type": "Full-Time",
+      "description": "Seeking a React Web Application Developer for our Denver, CO office. This role involves developing dynamic web applications and collaborating with cross-functional teams to deliver high-quality solutions.",
+      "location": "Denver, CO",
+      "salary": "$85K - $95K",
+      "company": {
+        "name": "Tech Innovators",
+        "description": "Tech Innovators is a leading tech firm dedicated to creating cutting-edge web applications and fostering a collaborative work environment. We value creativity and innovation.",
+        "contactEmail": "careers@techirs.com",
+        "contactPhone": "555-555-5570"
+      }
+    },
+    {
+      "id": "22",
+      "title": "React Developer (Startup)",
+      "type": "Full-Time",
+      "description": "Join our startup team in Nashville, TN as a React Developer. We are looking for a passionate developer to work on exciting new products and help shape our company's future.",
+      "location": "Nashville, TN",
+      "salary": "$80K - $90K",
+      "company": {
+        "name": "NextGen Ventures",
+        "description": "NextGen Ventures is a fast-growing startup with a focus on innovation and creativity. We offer a dynamic work environment and opportunities for rapid career advancement.",
+        "contactEmail": "jobs@netures.com",
+        "contactPhone": "555-555-5571"
+      }
+    },
+    {
+      "id": "23",
+      "title": "React Front-End Developer (Remote)",
+      "type": "Full-Time",
+      "description": "Remote React Front-End Developer position available. We are looking for a talented developer to work remotely and contribute to our development team, delivering high-quality web applications.",
+      "location": "Remote",
+      "salary": "$90K - $100K",
+      "company": {
+        "name": "Remote Tech Solutions",
+        "description": "Remote Tech Solutions offers remote work opportunities for talented developers. We are committed to providing a flexible work environment and supporting our team's growth.",
+        "contactEmail": "contact@hsolutions.com",
+        "contactPhone": "555-555-5572"
+      }
+    },
+    {
+      "id": "24",
+      "title": "Senior React Developer",
+      "type": "Full-Time",
+      "description": "We are hiring a Senior React Developer for our office in Boston, MA. This role involves leading development efforts, mentoring junior developers, and working on complex web projects.",
+      "location": "Boston, MA",
+      "salary": "$120K - $130K",
+      "company": {
+        "name": "Boston Tech Group",
+        "description": "Boston Tech Group is known for its innovative web solutions and commitment to excellence. Join us to work on cutting-edge projects and lead a talented team of developers.",
+        "contactEmail": "hr@bostroup.com",
+        "contactPhone": "555-555-5573"
+      }
+    },
+    {
+      "id": "25",
+      "title": "React Developer (Contract)",
+      "type": "Contract",
+      "description": "Contract position available for a React Developer in San Jose, CA. Ideal for individuals looking to work on specific projects and deliver high-quality results on a temporary basis.",
+      "location": "San Jose, CA",
+      "salary": "$75K - $85K (Contract)",
+      "company": {
+        "name": "ContractTech Solutions",
+        "description": "ContractTech Solutions connects skilled developers with project-based opportunities. We offer flexibility and diverse projects for talented professionals.",
+        "contactEmail": "contracts@contracttech.com",
+        "contactPhone": "555-555-5574"
+      }
+    },
+    {
+      "id": "26",
+      "title": "React Full Stack Developer",
+      "type": "Full-Time",
+      "description": "React Full Stack Developer needed in Dallas, TX. This role involves working on both front-end and back-end development using React and other technologies. Opportunity to work on full-stack projects in a dynamic team.",
+      "location": "Dallas, TX",
+      "salary": "$95K - $105K",
+      "company": {
+        "name": "Full Stack Innovations",
+        "description": "Full Stack Innovations is a leader in full-stack development solutions, offering a collaborative work environment and opportunities for growth.",
+        "contactEmail": "careers@fullovations.com",
+        "contactPhone": "555-555-5575"
+      }
+    },
+    {
+      "id": "27",
+      "title": "React Developer - Enterprise Solutions",
+      "type": "Full-Time",
+      "description": "React Developer for enterprise solutions in Atlanta, GA. We are seeking a developer with experience in large-scale web applications and a strong understanding of enterprise-level development practices.",
+      "location": "Atlanta, GA",
+      "salary": "$100K - $110K",
+      "company": {
+        "name": "Enterprise Tech Solutions",
+        "description": "Enterprise Tech Solutions specializes in delivering high-quality technology solutions to large organizations. We offer a challenging and rewarding work environment.",
+        "contactEmail": "jobs@enterprise.com",
+        "contactPhone": "555-555-5576"
+      }
+    },
+    {
+      "id": "28",
+      "title": "React Web Developer",
+      "type": "Full-Time",
+      "description": "We are looking for a React Web Developer to join our team in Seattle, WA. The ideal candidate will have experience in developing scalable web applications and a passion for modern front-end technologies.",
+      "location": "Seattle, WA",
+      "salary": "$95K - $105K",
+      "company": {
+        "name": "Seattle Web Innovations",
+        "description": "Seattle Web Innovations is a forward-thinking tech company specializing in advanced web development. We offer a collaborative work environment and opportunities for career growth.",
+        "contactEmail": "jobs@seattlewebinnovations.com",
+        "contactPhone": "555-555-5577"
+      }
+    },
+    {
+      "id": "29",
+      "title": "React Engineer",
+      "type": "Full-Time",
+      "description": "Join our team as a React Engineer in Austin, TX. We are seeking a skilled developer with a strong background in React to work on high-impact projects and contribute to our development team.",
+      "location": "Austin, TX",
+      "salary": "$85K - $95K",
+      "company": {
+        "name": "TechForward Solutions",
+        "description": "TechForward Solutions is a technology firm dedicated to innovation and excellence. We provide a dynamic work environment and opportunities to work on cutting-edge projects.",
+        "contactEmail": "careers@techforwardsolutions.com",
+        "contactPhone": "555-555-5578"
+      }
+    },
+    {
+      "id": "30",
+      "title": "React Front-End Developer",
+      "type": "Full-Time",
+      "description": "React Front-End Developer position available in Denver, CO. We are looking for a developer with expertise in React to build interactive user interfaces and contribute to our team’s success.",
+      "location": "Denver, CO",
+      "salary": "$80K - $90K",
+      "company": {
+        "name": "Denver Digital Labs",
+        "description": "Denver Digital Labs is a leading digital agency focusing on innovative web solutions. We offer a collaborative environment and opportunities to work on exciting projects.",
+        "contactEmail": "hr@denverdigitallabs.com",
+        "contactPhone": "555-555-5579"
+      }
+    },
+    {
+      "id": "31",
+      "title": "Senior React Developer",
+      "type": "Full-Time",
+      "description": "Senior React Developer needed in San Francisco, CA. This role requires extensive experience in React development and the ability to lead and mentor junior developers on complex projects.",
+      "location": "San Francisco, CA",
+      "salary": "$130K - $150K",
+      "company": {
+        "name": "SF Tech Giants",
+        "description": "SF Tech Giants is a prominent tech company known for its innovative solutions and leadership in the industry. We offer a high-impact work environment and competitive compensation.",
+        "contactEmail": "jobs@sftechgiants.com",
+        "contactPhone": "555-555-5580"
+      }
+    },
+    {
+      "id": "32",
+      "title": "React Developer (Remote)",
+      "type": "Full-Time",
+      "description": "Remote React Developer position available. Ideal for developers looking for flexible work arrangements while contributing to a team that values remote collaboration and innovation.",
+      "location": "Remote",
+      "salary": "$90K - $100K",
+      "company": {
+        "name": "Global Remote Tech",
+        "description": "Global Remote Tech offers remote work opportunities for top talent around the world. We are committed to flexibility and providing a supportive remote work environment.",
+        "contactEmail": "careers@globalremotetech.com",
+        "contactPhone": "555-555-5581"
+      }
+    },
+    {
+      "id": "33",
+      "title": "React Developer - Digital Marketing",
+      "type": "Full-Time",
+      "description": "React Developer position in New York, NY focusing on digital marketing solutions. We need a developer with experience in creating web applications for marketing purposes and a strong understanding of React.",
+      "location": "New York, NY",
+      "salary": "$100K - $110K",
+      "company": {
+        "name": "Digital Marketing Pros",
+        "description": "Digital Marketing Pros specializes in digital marketing solutions and web development. We offer a collaborative environment and opportunities to work on impactful marketing projects.",
+        "contactEmail": "jobs@digitalmarketingpros.com",
+        "contactPhone": "555-555-5582"
+      }
     }
   ]
 }

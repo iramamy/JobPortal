@@ -38,7 +38,7 @@ const AddJobPage = ({ addJobSubmit }) => {
         return navigate("/jobs");
     };
     return (
-        <section className="bg-indigo-50">
+        <section className="bg-indigo-50 mt-50 pt-8">
             <div className="container m-auto max-w-2xl py-24">
                 <div className="bg-white px-6 py-8 mb-4 shadow-md rounded-md border m-4 md:m-0">
                     <form onSubmit={submitForm}>
@@ -95,6 +95,7 @@ const AddJobPage = ({ addJobSubmit }) => {
                                 Description
                             </label>
                             <textarea
+                                style={{ resize: "none" }}
                                 id="description"
                                 name="description"
                                 className="border rounded w-full py-2 px-3"
@@ -196,6 +197,7 @@ const AddJobPage = ({ addJobSubmit }) => {
                                 Company Description
                             </label>
                             <textarea
+                                style={{resize: "none"}}
                                 id="company_description"
                                 name="company_description"
                                 className="border rounded w-full py-2 px-3"

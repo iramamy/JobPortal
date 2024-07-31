@@ -27,33 +27,32 @@ const JobListings = ({ isHome = false }) => {
     }, []);
 
     const handleSelect = (selectedItem) => {
-        // Filter jobs based on the selected item
         const filtered = Jobs.filter((job) => job.title === selectedItem.title);
         setFilteredJobs(filtered);
     };
 
     const handleClear = () => {
-        // Show all jobs when the search input is cleared
         setFilteredJobs(Jobs);
     };
 
     return (
         <>
-            <section className="bg-blue-50 px-4 py-10">
+            <section className="bg-blue-50 px-4 py-10 mt-12">
                 <div className="container-xl lg:container m-auto">
                     <h2 className="text-3xl font-bold text-indigo-500 mb-6 text-center">
                         {isHome ? "Recent Jobs" : "Browse jobs"}
                     </h2>
+                    {isHome ? undefined : (
+                        <div className="mb-5">
+                            <AutocompleteSearch
+                                items={Jobs}
+                                onSelect={handleSelect}
+                                onClear={handleClear}
+                            />
+                        </div>
+                    )}
 
-                    <div className="mb-5">
-                        <AutocompleteSearch
-                            items={Jobs}
-                            onSelect={handleSelect}
-                            onClear={handleClear}
-                        />
-                    </div>
-
-                    <div style={{ zIndex: -10 }}>
+                    <div>
                         {loading ? (
                             <Spinner loading={loading} />
                         ) : (
@@ -64,6 +63,11 @@ const JobListings = ({ isHome = false }) => {
                             </div>
                         )}
                     </div>
+                </div>
+                <div className="m-auto my-10 px-6">
+                    <button className="block bg-black text-white text-center py-4 px-6 rounded-xl hover:bg-gray-700 mx-auto">
+                        Show more
+                    </button>
                 </div>
             </section>
         </>

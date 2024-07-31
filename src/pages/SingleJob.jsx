@@ -21,7 +21,7 @@ const SingleJob = ({ deleteJob }) => {
 
     return (
         <>
-            <section>
+            <section className="mt-50 pt-20">
                 <div className="container m-auto py-6 px-6">
                     <Link
                         to="/jobs"
