@@ -36,7 +36,7 @@ The JSON Server simulates a backend API for job listings. Run it with:
 npm run server
 ```
 
-The JSON Server will be available at [http://localhost:2000](http://localhost:2000).
+The JSON Server will be available at [http://localhost:2000/jobs](http://localhost:2000/jobs).
 
 ### 🔥 Start the React Application
 
@@ -49,3 +49,24 @@ The React application will be available at [http://localhost:3000](http://localh
 
 **Note:** All job listings provided are purely fictional and intended for demonstration purposes only.
 
+## Preview
+![Home](./images/home.png)
+![Jobs](./images/jobs.png)
+![AddJob](./images/addjob.png)
+![Job](./images/job.png)
+
+## Dependencies
+
+- `@material-tailwind/react`
+- `@mui/material`
+- `formik`
+- `react`
+- `react-dom`
+- `react-icons`
+- `react-modal`
+- `react-router-dom`
+- `react-scroll-to-top`
+- `react-search-autocomplete`
+- `react-spinners`
+- `react-toastify`
+- `yup`
