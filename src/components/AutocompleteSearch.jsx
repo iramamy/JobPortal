@@ -17,7 +17,6 @@ const AutocompleteSearch = ({items, onSelect, onClear}) => {
                     onSelect={handleSelect}
                     onClear={handleOnClear}
                     placeholder='Search here...'
-                    // formatResult={formatResult}
                     fuseOptions={{ keys: ["title"] }}
                     resultStringKeyName="title"
                     styling={{
