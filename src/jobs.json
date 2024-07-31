@@ -228,13 +228,13 @@
       "id": "17",
       "title": "React Development Lead",
       "type": "Full-Time",
+      "location": "Seattle, WA, 4520",
       "description": "We are hiring a React Development Lead for our headquarters in Seattle, WA. The role involves leading a team of developers, designing complex web applications, and ensuring high standards of code quality.",
-      "location": "Seattle, WA",
       "salary": "$130K - $150K",
       "company": {
         "name": "Elite Web Solutions",
-        "description": "Elite Web Solutions is a leading web development company known for its high-quality projects and leadership in the industry. We offer competitive salaries and a supportive work environment.",
-        "contactEmail": "leadership@elitewebsolutions.com",
+        "description": "We are hiring a React Development Lead for our headquarters in Seattle, WA. The role involves leading a team of developers, designing complex web applications, and ensuring high standards of code quality.",
+        "contactEmail": "leadership@ions.com",
         "contactPhone": "555-555-5566"
       }
     },
@@ -460,6 +460,20 @@
         "description": "Digital Marketing Pros specializes in digital marketing solutions and web development. We offer a collaborative environment and opportunities to work on impactful marketing projects.",
         "contactEmail": "jobs@digitalmarketingpros.com",
         "contactPhone": "555-555-5582"
+      }
+    },
+    {
+      "id": "5160",
+      "title": "Elit non doloremque",
+      "type": "Internship",
+      "location": "Nobis veniam mollit",
+      "description": "Laborum Totam ad ve",
+      "salary": "$90K - 100K",
+      "company": {
+        "name": "Crawford Beach Plc",
+        "description": "Sed aut vel id nobis",
+        "contactEmail": "gafytazu@mailinator.com",
+        "contactPhone": "+1 (655) 872-6525"
       }
     }
   ]
