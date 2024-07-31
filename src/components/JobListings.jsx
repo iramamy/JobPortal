@@ -1,13 +1,16 @@
 import React from "react";
 import JobListing from "./JobListing";
+import ScrollToTop from "react-scroll-to-top";
 import { useState, useEffect } from "react";
 import Spinner from "./Spinner";
 import AutocompleteSearch from "./AutocompleteSearch";
+
 
 const JobListings = ({ isHome = false }) => {
     const [Jobs, setJobs] = useState([]);
     const [filteredJobs, setFilteredJobs] = useState([]);
     const [loading, setLoading] = useState(true);
+    const [jobsToShow, setJobsToShow] = useState(6);
 
     useEffect(() => {
         const fetchJobs = async () => {
@@ -16,7 +19,7 @@ const JobListings = ({ isHome = false }) => {
                 const response = await fetch(apiUrl);
                 const data = await response.json();
                 setJobs(data);
-                setFilteredJobs(data);
+                setFilteredJobs(data.slice(0, jobsToShow));
             } catch (error) {
                 console.log("ERROR FETCHING DATA!", error);
             } finally {
@@ -32,7 +35,13 @@ const JobListings = ({ isHome = false }) => {
     };
 
     const handleClear = () => {
-        setFilteredJobs(Jobs);
+        setFilteredJobs(Jobs.slice(0, 6));
+    };
+
+    const handleShowMore = () => {
+        const counter = jobsToShow + 6;
+        setJobsToShow(counter);
+        setFilteredJobs(Jobs.slice(0, counter));
     };
 
     return (
@@ -64,11 +73,31 @@ const JobListings = ({ isHome = false }) => {
                         )}
                     </div>
                 </div>
-                <div className="m-auto my-10 px-6">
-                    <button className="block bg-black text-white text-center py-4 px-6 rounded-xl hover:bg-gray-700 mx-auto">
-                        Show more
-                    </button>
-                </div>
+                {!isHome && (
+                    <div className="m-auto my-10 px-6">
+                        { filteredJobs.length >= 6 && jobsToShow < Jobs.length && (
+                            <button
+                                className="block bg-black text-white text-center py-4 px-6 rounded-xl hover:bg-gray-700 mx-auto"
+                                onClick={handleShowMore}
+                            >
+                                Show more
+                            </button>
+                        )}
+                    </div>
+                )}
+                {!isHome && jobsToShow >= Jobs.length && filteredJobs.length >= 6 && (
+                    <div>
+                        <h1 className="text-center text-xl font-bold">
+                            You've reached the end of the job list.
+                        </h1>
+                        <ScrollToTop smooth style={{
+                            display: "flex",
+                            justifyContent: "center",
+                            alignItems: "center",
+                            color: "#fff"
+                        }}/>
+                    </div>
+                )}
             </section>
         </>
     );
